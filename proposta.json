@@ -1,0 +1,200 @@
+{
+  "slug": "km-estetica-avancada",
+  "negocio": {
+    "nome": "KM Estética Avançada",
+    "whatsapp": "5519983245360",
+    "telefone": "(19) 98324-5360",
+    "funcionamento": {
+      "seg": "09:00-20:00",
+      "ter": "09:00-20:00",
+      "qua": "09:00-20:00",
+      "qui": "09:00-20:00",
+      "sex": "09:00-20:00",
+      "sab": "09:00-18:00",
+      "dom": null
+    },
+    "unidades": [
+      {
+        "bairro": "Jardim Guanabara",
+        "endereco": "R. Camargo Penteado, 191 — Jardim Guanabara, Campinas-SP, 13073-360",
+        "telefone": "(19) 98324-5360",
+        "horario": "Seg a sex, 9h às 20h · Sáb, 9h às 18h"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#2F4A3B",
+    "brand2": "#1F3428",
+    "ink": "#1E2420",
+    "bg": "#FAF8F4",
+    "pulse": "#C9A45C",
+    "radius": "4px",
+    "registro": "editorial",
+    "tomHero": "claro",
+    "tomCorpo": "claro",
+    "fontDisplay": "Cormorant Garamond",
+    "fontBody": "Jost"
+  },
+  "motivo": "camadas",
+  "secoes": [
+    {
+      "id": "header",
+      "variant": "sticky-cta",
+      "data": {
+        "links": [
+          { "texto": "Tratamentos", "href": "#tratamentos" },
+          { "texto": "A casa", "href": "#a-casa" },
+          { "texto": "Avaliações", "href": "#avaliacoes" },
+          { "texto": "Onde fica", "href": "#unidades" }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "moldura",
+      "data": {
+        "eyebrow": "Harmonização corporal · Campinas",
+        "h1": "Massagem, drenagem e uma hora só para o seu corpo",
+        "lead": "A KM é uma casa de estética para quem quer sair da sessão mais leve. Atendimento com hora marcada, de segunda a sábado, no Jardim Guanabara, em Campinas.",
+        "cta": "Agendar pelo WhatsApp",
+        "ctaSecundario": "Ver tratamentos",
+        "ctaSecundarioHref": "#tratamentos",
+        "imagem": "midia/f01.jpg",
+        "imagemAlt": "Espaço de espera da KM, com sofás brancos, almofadas verdes e balanço com flores",
+        "tarja": [
+          "Nota 5,0 em 102 avaliações no Google",
+          "Aberto de segunda a sábado",
+          "Massagem é a palavra mais citada",
+          "Entrada acessível para cadeira de rodas"
+        ]
+      }
+    },
+    {
+      "id": "fita",
+      "variant": "inclinada",
+      "data": {
+        "itens": ["Massagem", "Drenagem linfática", "Limpeza de pele", "Harmonização corporal"]
+      }
+    },
+    {
+      "id": "manifesto",
+      "variant": "pagina",
+      "data": {
+        "eyebrow": "A KM",
+        "citacao": "Uma hora só sua, sem pressa e sem barulho.",
+        "autor": "KM Estética Avançada",
+        "texto": [
+          "Na placa da porta está escrito harmonização corporal, e é isso: o foco da KM é o corpo, e a massagem é o que as clientes mais citam quando voltam para avaliar.",
+          "Cada sessão começa na recepção, com tempo para chegar. Depois vem a sala reservada, a maca e as mãos de quem já conhece o seu jeito."
+        ],
+        "imagem": "midia/f03.jpg",
+        "imagemAlt": "Recepção da KM com balcão branco, parede de folhagem e letreiro Kethelyn Martins"
+      }
+    },
+    {
+      "id": "tratamentos",
+      "variant": "pilha",
+      "data": {
+        "titulo": "O que a KM faz",
+        "lead": "Quatro frentes de cuidado. Na primeira conversa pelo WhatsApp a equipe ajuda a escolher por onde começar.",
+        "itens": [
+          {
+            "nome": "Massagem",
+            "descricao": "O tratamento mais procurado da casa. Sessões para soltar a tensão do dia a dia ou para modelar, conforme o que você procura.",
+            "icone": "mao",
+            "imagem": "midia/f05.jpg"
+          },
+          {
+            "nome": "Drenagem linfática",
+            "descricao": "Movimentos leves e ritmados que ajudam o corpo a eliminar o excesso de líquido. Para quem sente inchaço nas pernas ou no fim do dia.",
+            "icone": "gota"
+          },
+          {
+            "nome": "Limpeza de pele",
+            "descricao": "Higienização profunda, extração e hidratação, com o rosto tratado com o mesmo cuidado que o corpo.",
+            "icone": "pele"
+          },
+          {
+            "nome": "Harmonização corporal",
+            "descricao": "Protocolos combinados de massagem, drenagem e aparelhos para contorno, montados depois de uma avaliação com a profissional.",
+            "icone": "spa"
+          }
+        ]
+      }
+    },
+    { "custom": "blocos/cafe.html" },
+    {
+      "id": "conversa",
+      "variant": "celular",
+      "data": {
+        "eyebrow": "Agendar é uma mensagem",
+        "titulo": "Sábado também tem horário",
+        "lead": "A maior parte das clientes marca pelo WhatsApp, no intervalo do trabalho. A recepção responde, confirma o horário e manda o endereço.",
+        "cta": "Chamar a KM no WhatsApp",
+        "contato": "KM Estética Avançada",
+        "mensagens": [
+          { "de": "paciente", "texto": "Oi! Vocês têm horário para drenagem no sábado de manhã?" },
+          { "de": "clinica", "texto": "Oi, tudo bem? Temos sim! Sábado atendemos das 9h às 18h. Prefere 9h ou 10h30?" },
+          { "de": "paciente", "texto": "10h30, por favor 😊" },
+          { "de": "clinica", "texto": "Prontinho, sábado às 10h30. Estamos na R. Camargo Penteado, 191, no Jardim Guanabara. Te esperamos com um café!" }
+        ]
+      }
+    },
+    { "custom": "blocos/palavras.html" },
+    {
+      "id": "depoimentos",
+      "variant": "citacoes",
+      "data": {
+        "titulo": "Em palavras de quem já foi",
+        "itens": [
+          { "texto": "Ambiente super acolhedor e resultados visíveis desde as primeiras sessões. A clínica é referência em massagem e drenagem.", "autor": "Adylla D.", "contexto": "Avaliação no Google" },
+          { "texto": "Profissionais extremamente atenciosas e cuidadosas. Dá para sentir o carinho em cada detalhe. Com certeza voltarei.", "autor": "Elaine C.", "contexto": "Avaliação no Google" },
+          { "texto": "Ótima experiência. Atendimento com muito profissionalismo. Voltarei mais vezes!", "autor": "Rafael M.", "contexto": "Avaliação no Google" }
+        ]
+      }
+    },
+    {
+      "id": "numeros",
+      "variant": "vivo",
+      "data": {
+        "titulo": "A KM em números",
+        "itens": [
+          { "valor": "5,0", "rotulo": "nota no Google" },
+          { "valor": "102", "rotulo": "avaliações de clientes", "contar": 102 },
+          { "valor": "6", "rotulo": "dias por semana de atendimento", "contar": 6 }
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "variant": "acordeao",
+      "data": {
+        "titulo": "Antes de marcar",
+        "itens": [
+          { "p": "Vocês atendem aos sábados?", "r": "Sim. De segunda a sexta das 9h às 20h e aos sábados das 9h às 18h. Domingo a casa fecha." },
+          { "p": "Como faço para agendar?", "r": "Pelo WhatsApp (19) 98324-5360. A recepção confere a agenda e confirma o horário na mesma conversa." },
+          { "p": "Não sei qual tratamento escolher. E agora?", "r": "Conte pelo WhatsApp o que está incomodando — inchaço, tensão, contorno, pele. A equipe indica por onde começar." },
+          { "p": "O espaço é acessível?", "r": "Sim. A entrada e o estacionamento são acessíveis para cadeira de rodas." }
+        ]
+      }
+    },
+    {
+      "id": "unidades",
+      "variant": "unica",
+      "data": {
+        "titulo": "Onde fica a KM",
+        "imagem": "midia/f02.jpg"
+      }
+    },
+    {
+      "id": "cta-final",
+      "variant": "bloco-cheio",
+      "data": {
+        "h2": "Sua próxima hora de cuidado começa com um oi",
+        "lead": "Mande uma mensagem e a recepção da KM encontra um horário que cabe na sua semana.",
+        "cta": "Agendar pelo WhatsApp"
+      }
+    },
+    { "id": "footer" }
+  ]
+}

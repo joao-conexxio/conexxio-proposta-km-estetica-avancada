@@ -1,0 +1,36 @@
+<section class="blk-cafe" id="a-casa">
+  <div class="blk-cafe__in">
+    <div class="blk-cafe__texto" data-reveal>
+      <p class="blk-cafe__eyebrow">Antes da sessão</p>
+      <h2 class="blk-cafe__h2">Primeiro, um café. Depois, a maca.</h2>
+      <p class="blk-cafe__p" data-acende>Quem chega na KM não vai direto para a maca. Tem o balanço com flores na recepção, o sofá branco e o café servido na bandeja com biscoito. São alguns minutos para desacelerar antes da massagem — e é isso que as avaliações chamam de "ambiente acolhedor".</p>
+      <ul class="blk-cafe__fatos">
+        <li><!--icone:spa--> Salas reservadas, com maca e espelho de corpo inteiro</li>
+        <li><!--icone:local--> Entrada e estacionamento acessíveis para cadeira de rodas</li>
+        <li><!--icone:agenda--> Segunda a sexta até 20h, sábado até 18h</li>
+      </ul>
+    </div>
+    <div class="blk-cafe__fotos">
+      <figure class="blk-cafe__f blk-cafe__f--a"><!--foto:midia/f07.jpg|Café servido em bandeja com biscoito na recepção da KM--></figure>
+      <figure class="blk-cafe__f blk-cafe__f--b" data-reveal><!--foto:midia/f08.jpg|Balanço com flores no espaço de espera da KM--></figure>
+    </div>
+  </div>
+</section>
+<style>
+.blk-cafe { padding: clamp(64px, 12vw, 128px) 20px; background: color-mix(in srgb, var(--brand) 6%, var(--bg)); color: var(--ink); }
+.blk-cafe__in { max-width: 1120px; margin: 0 auto; display: grid; gap: 40px; }
+.blk-cafe__eyebrow { margin: 0 0 12px; font-size: 12px; letter-spacing: .18em; text-transform: uppercase; color: var(--brand); }
+.blk-cafe__h2 { margin: 0 0 20px; font-family: var(--f-display); font-weight: 400; font-size: clamp(32px, 7vw, 54px); line-height: 1.06; }
+.blk-cafe__p { margin: 0 0 28px; font-size: 17px; line-height: 1.65; max-width: 48ch; }
+.blk-cafe__fatos { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
+.blk-cafe__fatos li { display: flex; gap: 12px; align-items: center; font-size: 15px; }
+.blk-cafe__fatos svg { width: 22px; height: 22px; flex: none; color: var(--brand); }
+.blk-cafe__fotos { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; align-items: end; }
+.blk-cafe__f { margin: 0; border-radius: var(--r); overflow: hidden; aspect-ratio: 9 / 14; box-shadow: 0 24px 60px -30px color-mix(in srgb, var(--ink) 45%, transparent); }
+.blk-cafe__fotos { margin-top: 8px; }
+.blk-cafe__f img { width: 100%; height: 100%; object-fit: cover; display: block; }
+@media (min-width: 900px) {
+  .blk-cafe__in { grid-template-columns: 1fr 1fr; align-items: center; column-gap: 80px; }
+  .blk-cafe__f--b { transform: translateY(-48px); }
+}
+</style>

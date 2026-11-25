@@ -1,0 +1,37 @@
+<section class="blk-palavras" id="avaliacoes">
+  <div class="blk-palavras__in">
+    <header class="blk-palavras__cab" data-reveal>
+      <p class="blk-palavras__eyebrow">102 avaliações · nota 5,0</p>
+      <h2 class="blk-palavras__h2">O que as clientes mais repetem</h2>
+      <p class="blk-palavras__lead" data-acende>Contamos as palavras que aparecem nas avaliações da KM no Google. A primeira da lista não é sorte: é o que a casa faz todo dia.</p>
+    </header>
+    <ol class="blk-palavras__lista" data-pilha>
+      <li class="blk-palavras__item" style="--v:11"><span class="blk-palavras__nome">massagem</span><span class="blk-palavras__barra"><i></i></span><span class="blk-palavras__n" data-count="11">11</span></li>
+      <li class="blk-palavras__item" style="--v:5"><span class="blk-palavras__nome">clínica</span><span class="blk-palavras__barra"><i></i></span><span class="blk-palavras__n" data-count="5">5</span></li>
+      <li class="blk-palavras__item" style="--v:5"><span class="blk-palavras__nome">equipe</span><span class="blk-palavras__barra"><i></i></span><span class="blk-palavras__n" data-count="5">5</span></li>
+      <li class="blk-palavras__item" style="--v:3"><span class="blk-palavras__nome">limpeza de pele</span><span class="blk-palavras__barra"><i></i></span><span class="blk-palavras__n" data-count="3">3</span></li>
+      <li class="blk-palavras__item" style="--v:3"><span class="blk-palavras__nome">simpática</span><span class="blk-palavras__barra"><i></i></span><span class="blk-palavras__n" data-count="3">3</span></li>
+      <li class="blk-palavras__item" style="--v:2"><span class="blk-palavras__nome">drenagem</span><span class="blk-palavras__barra"><i></i></span><span class="blk-palavras__n" data-count="2">2</span></li>
+    </ol>
+    <p class="blk-palavras__nota">Contagem das palavras destacadas pelo Google Maps nas avaliações públicas.</p>
+  </div>
+</section>
+<style>
+.blk-palavras { padding: clamp(64px, 12vw, 128px) 20px; background: var(--bg); color: var(--ink); }
+.blk-palavras__in { max-width: 1080px; margin: 0 auto; display: grid; gap: 40px; }
+.blk-palavras__eyebrow { margin: 0 0 12px; font-size: 12px; letter-spacing: .18em; text-transform: uppercase; color: var(--brand); }
+.blk-palavras__h2 { margin: 0 0 16px; font-family: var(--f-display); font-weight: 400; font-size: clamp(32px, 7vw, 56px); line-height: 1.05; }
+.blk-palavras__lead { margin: 0; max-width: 46ch; font-size: 17px; line-height: 1.6; opacity: .82; }
+.blk-palavras__lista { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; }
+.blk-palavras__item { display: grid; grid-template-columns: 1fr auto; grid-template-areas: "nome n" "barra barra"; gap: 8px 12px; align-items: baseline; padding: 16px 18px; border: 1px solid color-mix(in srgb, var(--ink) 12%, transparent); border-radius: var(--r); background: color-mix(in srgb, var(--brand) 3%, var(--bg)); }
+.blk-palavras__nome { grid-area: nome; font-family: var(--f-display); font-size: 22px; }
+.blk-palavras__n { grid-area: n; font-size: 28px; font-variant-numeric: tabular-nums; color: var(--brand); }
+.blk-palavras__barra { grid-area: barra; height: 6px; border-radius: 6px; background: color-mix(in srgb, var(--brand) 12%, transparent); overflow: hidden; }
+.blk-palavras__barra i { display: block; height: 100%; width: calc(var(--v) / 11 * 100%); background: linear-gradient(90deg, var(--brand), var(--pulse, var(--brand))); border-radius: inherit; }
+.blk-palavras__nota { margin: 0; font-size: 13px; opacity: .6; }
+@media (min-width: 900px) {
+  .blk-palavras__in { grid-template-columns: 5fr 6fr; align-items: start; column-gap: 72px; }
+  .blk-palavras__cab { position: sticky; top: 120px; }
+  .blk-palavras__nota { grid-column: 2; }
+}
+</style>
